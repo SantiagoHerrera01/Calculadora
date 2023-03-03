@@ -1,0 +1,42 @@
+body {
+    background: #ddd;
+    font-family: monospace;
+
+}
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+div#Calculadora {
+    background: #fff;
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 30px #00000050;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+div#pantalla {
+    background: linear-gradient(45deg, #ee2b7b,#eec02b, transparent);
+    padding: 50px 20px;
+    text-align: right;
+    font-size: 35px;
+    color: white; }
+div#botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+button.mi-boton{
+    height: 90px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button#boton-igual{
+    background: linear-gradient(45deg, red, blue);
+}
